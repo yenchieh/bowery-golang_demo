@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;bowery-golang_demo&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../BowerGoDemo" />
+      <root url="file://$PROJECT_DIR$/../simonwaldherr.de" />
+      <root url="file://$PROJECT_DIR$/../cacoo-lang-convert" />
+      <root url="file://$PROJECT_DIR$/../docker-golang-example" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../golang.nulab-inc.com" />
+      <root url="file://$PROJECT_DIR$/../cacoo-template-converter" />
+      <root url="file://$PROJECT_DIR$/../nulab-status-site" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../BowerGoDemo" />
+      <root url="file://$PROJECT_DIR$/../simonwaldherr.de" />
+      <root url="file://$PROJECT_DIR$/../cacoo-lang-convert" />
+      <root url="file://$PROJECT_DIR$/../docker-golang-example" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../golang.nulab-inc.com" />
+      <root url="file://$PROJECT_DIR$/../cacoo-template-converter" />
+      <root url="file://$PROJECT_DIR$/../nulab-status-site" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
