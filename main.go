@@ -4,6 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"net/url"
 )
 
 type PageValues struct {
@@ -21,6 +22,7 @@ func main() {
 	r.NoRoute(notFoundPage)
 
 	r.GET("/", home)
+	r.GET("/searchGopher", getGopher)
 
 	r.Run(":9999")
 }
@@ -33,6 +35,15 @@ func home(c *gin.Context) {
 	}
 
 	c.HTML(http.StatusOK, "home.html", pageValues)
+}
+
+func getGopher(c *gin.Context) {
+	URL, err := url.Parse("https://pixabay.com/api")
+	if err != nil {
+		c.Redirect(http.StatusTemporaryRedirect, "/404")
+		return
+	}
+
 }
 
 func notFoundPage(c *gin.Context) {
