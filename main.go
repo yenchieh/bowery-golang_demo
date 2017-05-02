@@ -45,8 +45,6 @@ type ImageDetail struct {
 var key string
 
 func main() {
-
-	fmt.Printf("%#v", os.Args)
 	key = os.Args[1]
 
 	r := gin.Default()
