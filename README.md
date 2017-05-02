@@ -5,7 +5,7 @@
 * Golang
 * [Gin framework](https://github.com/gin-gonic/gin)
 * Bootstrap css
-* Image API from [pixababy](https://www.meetup.com/Bowery-Go/events/239385895/)
+* Image API from [pixababy](https://pixabay.com/api/docs/)
 
 ### Setup
 * You will need to get key from pixababy (Link above) to be able to run the project
