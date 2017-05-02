@@ -6,10 +6,27 @@
         text-align: center;
         padding: 15px;
     }
+    a:link {
+        text-decoration: none;
+    }
 </style>
 
 <div class="row search-container">
-    <a class="btn btn-primary jsSearch" href="/searchGopher">Search</a>
+    <form class="form-inline">
+        <div class="form-group">
+            <input class="form-control jsSearchInput" type="text" value="{{ .SearchQuery }}"/>
+            <button class="btn btn-primary jsSearch">Search</button>
+        </div>
+
+    </form>
+</div>
+
+<div class="container">
+    {{ range $key, $value := .Hits }}
+    <a target="_blank" href="{{ $value.PageURL }}">
+        <img class="img-thumbnail" src="{{ $value.PreviewURL }}" href="{{ $value.PageURL }}" />
+    </a>
+    {{ end }}
 </div>
 
 {{ end }}
