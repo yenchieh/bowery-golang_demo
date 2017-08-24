@@ -2,7 +2,6 @@
   <library name="GOPATH &lt;bowery-golang_demo&gt;">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../golang.org" />
-      <root url="file://$PROJECT_DIR$/../BowerGoDemo" />
       <root url="file://$PROJECT_DIR$/../simonwaldherr.de" />
       <root url="file://$PROJECT_DIR$/../cacoo-lang-convert" />
       <root url="file://$PROJECT_DIR$/../docker-golang-example" />
@@ -15,7 +14,6 @@
     <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/../golang.org" />
-      <root url="file://$PROJECT_DIR$/../BowerGoDemo" />
       <root url="file://$PROJECT_DIR$/../simonwaldherr.de" />
       <root url="file://$PROJECT_DIR$/../cacoo-lang-convert" />
       <root url="file://$PROJECT_DIR$/../docker-golang-example" />

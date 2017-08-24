@@ -60,6 +60,10 @@ func main() {
 	r.Run(":9999")
 }
 
+func notFoundPage(c *gin.Context) {
+	c.HTML(http.StatusNotFound, "404.html", nil)
+}
+
 func home(c *gin.Context) {
 	c.HTML(http.StatusOK, "home.html", nil)
 }
@@ -111,8 +115,4 @@ func searchImages(c *gin.Context) {
 	images.SearchQuery = q
 
 	c.HTML(http.StatusOK, "home.html", images)
-}
-
-func notFoundPage(c *gin.Context) {
-	c.HTML(http.StatusNotFound, "404.html", nil)
 }
